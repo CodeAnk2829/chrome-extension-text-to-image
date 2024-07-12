@@ -14,14 +14,14 @@ A **Chrome Extension** that can help users:
 ### Step 1: Setting up the backend
 - Copy and paste the link given below in your **Google Colab** notebook and run all the cells.
 [Text-to-Image Model](https://colab.research.google.com/drive/1c5HfV2fZFTuelAQD53QHhkOPJbypK0ct?usp=sharing)
-- Get the *ngrok* URL
-==NOTE: Don't forget to put <your_auth_token>==
+- Get the *ngrok* URL.
+> NOTE: Don't forget to put <your_auth_token>
 ### Step 2: Make a fork
 Fork the Text-to-Image-converter repository. This means that you'll have a copy of the repository under your-GitHub-username/repository-name.
 
 ### Step 3: Clone the repository to your local machine
 ```
-git clone -b next https://github.com/AppointyIntern/Text-to-Image-convertor.git
+git clone -b next https://github.com/{your-GitHub-username}/AppointyIntern/Text-to-Image-convertor.git
 ```
 
 ### Step 4: Add it to your Chrome extension
