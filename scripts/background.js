@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
     const formData = new FormData();
     formData.append("prompt", selectedText);
 
-    const URL = "https://49ad-104-196-250-181.ngrok-free.app/generate";
+    const URL = "https://4c03-34-142-177-53.ngrok-free.app/generate";
     try {
       const response = await fetch(URL, {
         method: "POST",
